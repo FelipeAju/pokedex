@@ -1,0 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+h2 {
+    font-size: bold;
+    color: #1a305a;
+    text-align: center;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;   
+}
+
+.pokemon:hover {
+    width: 11rem;
+    transform: scale(1.8);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6) 
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }    
+}
+
